@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+footer{
+    background-color: #92C7CF;
+}
+
+.text{
+    font-family: "Salsa";
+    color: #fff;
+}
