@@ -15,7 +15,7 @@ function Flashcard({title, info, id}) {
         deleteFlashcard(id)
     }
   return (
-    <div className="rounded-lg overflow-hidden">
+    <div className="rounded-lg overflow-hidden shadow-lg">
     <div className="w-full h-9  bg-white flex justify-end items-center" >
         <div onClick={handleDelete}>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-x-circle text-gray-400 mr-4 hover:cursor-pointer" viewBox="0 0 16 16">

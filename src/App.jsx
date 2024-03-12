@@ -27,6 +27,10 @@ function App() {
     })
   }
   const addFlashcard = (flashcard) => {
+    if(flashcard.title == "" ){
+      return;
+    }
+    
     setFlashcards((prev)=> [...prev, {...flashcard, id: Date.now()}])
 
   }
